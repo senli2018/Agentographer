@@ -26,41 +26,17 @@ In this paper, we aim to achieve full-automated intelligent CT examinatin, and d
 4. **A set of Functional Programs for CT Workflow.** We developed two major programs about LLM-based patient interaction module involving behavior guidance and intelligent Q&A, and LLM-based automated device control module, including the patient information registration, shielding door control(open/close), table movement control (up/down, in/out), tube exposure control (initiating scout scan and CT scan), CT scan positioning frame adjustment, and scan parameter selection.
 
 ## Table of Contents
-- [The traditional workflow of CT examination](#Video-Demo-of-the-Agentographer)
-  - [Preliminary Works](#preliminary-works)
-  - [Highlighted Projects](#highlighted-projects)
-- [Installation](#installation)
-  - [Install with Docker](#install-with-docker)
-  - [Install locally](#install-without-docker)
-- [Grounded-SAM Playground](#grounded-sam-playground)
-  - [Step-by-Step Notebook Demo](#open_book-step-by-step-notebook-demo)
-  - [GroundingDINO: Detect Everything with Text Prompt](#running_man-groundingdino-detect-everything-with-text-prompt)
-  - [Grounded-SAM: Detect and Segment Everything with Text Prompt](#running_man-grounded-sam-detect-and-segment-everything-with-text-prompt)
-  - [Grounded-SAM with Inpainting: Detect, Segment and Generate Everything with Text Prompt](#skier-grounded-sam-with-inpainting-detect-segment-and-generate-everything-with-text-prompt)
-  - [Grounded-SAM and Inpaint Gradio APP](#golfing-grounded-sam-and-inpaint-gradio-app)
-  - [Grounded-SAM with RAM or Tag2Text for Automatic Labeling](#label-grounded-sam-with-ram-or-tag2text-for-automatic-labeling)
-  - [Grounded-SAM with BLIP & ChatGPT for Automatic Labeling](#robot-grounded-sam-with-blip-for-automatic-labeling)
-  - [Grounded-SAM with Whisper: Detect and Segment Anything with Audio](#open_mouth-grounded-sam-with-whisper-detect-and-segment-anything-with-audio)
-  - [Grounded-SAM ChatBot with Visual ChatGPT](#speech_balloon-grounded-sam-chatbot-demo)
-  - [Grounded-SAM with OSX for 3D Whole-Body Mesh Recovery](#man_dancing-run-grounded-segment-anything--osx-demo)
-  - [Grounded-SAM with VISAM for Tracking and Segment Anything](#man_dancing-run-grounded-segment-anything--visam-demo)
-  - [Interactive Fashion-Edit Playground: Click for Segmentation And Editing](#dancers-interactive-editing)
-  - [Interactive Human-face Editing Playground: Click And Editing Human Face](#dancers-interactive-editing)
-  - [3D Box Via Segment Anything](#camera-3d-box-via-segment-anything)
-  - [Playground: More Interesting and Imaginative Demos with Grounded-SAM](./playground/)
-    - [DeepFloyd: Image Generation with Text Prompt](./playground/DeepFloyd/)
-    - [PaintByExample: Exemplar-based Image Editing with Diffusion Models](./playground/PaintByExample/)
-    - [LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions](./playground/LaMa/)
-    - [RePaint: Inpainting using Denoising Diffusion Probabilistic Models](./playground/RePaint/)
-    - [ImageBind with SAM: Segment with Different Modalities](./playground/ImageBind_SAM/)
-  - [Efficient SAM Series for Faster Annotation](./EfficientSAM/)
-    - [Grounded-FastSAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-fastsam-demo)
-    - [Grounded-MobileSAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-mobilesam-demo)
-    - [Grounded-Light-HQSAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-light-hqsam-demo)
-    - [Grounded-Efficient-SAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-efficient-sam-demo)
-    - [Grounded-Edge-SAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-edge-sam-demo)
-    - [Grounded-RepViT-SAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-repvit-sam-demo)
+- [Video Demo](#Video-Demo-of-the-Agentographer)
+- [Introduction](#Introduction)
+- [The traditional workflow of CT examination](#The-traditional-workflow-of-CT-examination)
+- [The Agent Framework of Agentographer](#The-Agent-Framework-of-Agentographer)
+  - [Integrated Hardware Solution for Agentographer](#Integrated-Hardware-Solution-for-Agentographer)
+  - [Toolbox (AI models and softwares) in Agentographer](#Toolbox-(AI-models-and-softwares)-in-Agentographer)
+- [The structure of the released Code](#The-structure-of-the-released-Code)
+- [Acknowledgement](#Acknowledgement)
+- [Contact](#Contact)
 - [Citation](#citation)
+- [Reference](#Reference)
 
 ## The traditional workflow of CT examination
 The traditional worflow of CT examination is as follows. The process begins with patient registration and information input. Upon entering the scanning room, the radiographer provides verbal instructions to guide the patient in adjusting their body position and posture manually. Key parameters (e.g., scan range, isocenter) are measured and set by the radiographer using physical markers and visual alignment. Once positioning is confirmed, the radiographer configures scan parameters on the CT console and initiates the scan. After image acquisition, the radiographer oversees image reconstruction and transfers the data to radiologists for interpretation and report generation. Concurrently, the radiographer assists the patient in redressing and exiting the room, concluding the procedure.
@@ -127,9 +103,8 @@ To enable seamless automation of CT examination workflows, we designed a robust 
 
 --- 
 
-## Toolbox (AI models and softwares) in Agentographer
+### Toolbox (AI models and softwares) in Agentographer
 
-### **1.AI Models and Software Description**  
 The **Agentographer** system integrates multiple AI models and software modules to enable end-to-end automation of CT examination workflows, supported by the multimodal hardware platform. Key components include:  
 
 1. **Patient Information Recognition**:  
@@ -152,7 +127,7 @@ The **Agentographer** system integrates multiple AI models and software modules 
 
 ---
 
-### **2.Summary Table: AI Models/Software and Roles**  
+**Summary Table: AI Models/Software and Roles**  
 
 | **Module/Function**                                 | **Model/API**                                                                     | **Our Code** | **Role**                                                                                         |  
 |-----------------------------------------------------|-------------------------------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------|  
@@ -173,7 +148,7 @@ The **Agentographer** system integrates multiple AI models and software modules 
 - **Hardware-Software Co-Design**: Utilizes APIs (relays, KVM) to bridge AI decisions with physical device control.  
 - **Clinical Validation**: All models trained/fine-tuned on domain-specific datasets (e.g., chest CTs, radiology reports).  
 
-## **Installation**
+## **The structure of the released Code**
 
 
 
