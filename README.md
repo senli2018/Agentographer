@@ -129,16 +129,16 @@ The **Agentographer** system integrates multiple AI models and software modules 
 
 **Summary Table: AI Models/Software and Roles**  
 
-| **Module/Function**                                 | **Model/API**                                                                     | **Our Code** | **Role**                                                                                         |  
-|-----------------------------------------------------|-------------------------------------------------------------------------------------|--------------|--------------------------------------------------------------------------------------------------|  
-| The core of reasoning and decision in Agentographer | **LLaMA-CT**                                                                        |              | Plan and decompose the task and control the AI models and devices to conduct the CT examination. |  
-| Patient Information Recognition                     | **OCR Engine (Tencent Cloud OCR API)**                                              |              | Extracts patient ID, scan parameters from requisition forms via HD camera.                       |  
-| Behavior Guidance and Real-time Q&A                 | **Video display & real-time audio recognition/generation(Azure  AI Speech Studio)** |              | Powers speech interaction, posture guidance videos, and real-time patient Q&A.                   |  
-| Intelligent Isocenter Positioning                   | **RTMPose[1] & Depth to Distance in RGB-D camera**                                  |              | Detects 2D/3D anatomical landmarks from RGB-D data for isocenter calculation.                    | 
-| CT Scan Range Determination                         | **SAM2 (Segment Anything Model)[2]**                                                |              | Segments lung fields in scout images to define scan boundaries.                                  |  
-| LLM-Based Device Control                            | **LLaMA-CT Function Calling**                                                       |              | Translates AI decisions into relay/KVM commands (e.g., "move table 20cm").                       |  
-| AI-Driven Diagnosis                                 | **3D Leaky Noisy-or Network[3]**                                                    |              | Detects and classifies pulmonary nodules in 3D CT volumes.                                       |  
-| AI-Driven Reporting                                 | **LLaMA-CT Report Generator**                                                       |              | Generates standardized diagnostic reports with Lung-RADS classifications.                        |  
+| **Module/Function**                                 | **Model/API**                                                                        | **Released Code** | **Role**                                                                                         |  
+|-----------------------------------------------------|--------------------------------------------------------------------------------------|-------------------|--------------------------------------------------------------------------------------------------|  
+| The core of reasoning and decision in Agentographer | **LLaMA-CT**                                                                         |                   | Plan and decompose the task and control the AI models and devices to conduct the CT examination. |  
+| Patient Information Recognition                     | **OCR Engine (Tencent Cloud OCR API)**                                               |                   | Extracts patient ID, scan parameters from requisition forms via HD camera.                       |  
+| Behavior Guidance and Real-time Q&A                 | **Video display & real-time audio recognition/generation(Azure  AI Speech Studio)**  |                   | Powers speech interaction, posture guidance videos, and real-time patient Q&A.                   |  
+| Intelligent Isocenter Positioning                   | **RTMPose[1] & Depth to Distance in RGB-D camera**                                   |                   | Detects 2D/3D anatomical landmarks from RGB-D data for isocenter calculation.                    | 
+| CT Scan Range Determination                         | **SAM2 (Segment Anything Model)[2]**                                                 |                   | Segments lung fields in scout images to define scan boundaries.                                  |  
+| LLM-Based Device Control                            | **LLaMA-CT Function Calling**                                                        |                   | Translates AI decisions into relay/KVM commands (e.g., "move table 20cm").                       |  
+| AI-Driven Diagnosis                                 | **3D Leaky Noisy-or Network[3]**                                                     |                   | Detects and classifies pulmonary nodules in 3D CT volumes.                                       |  
+| AI-Driven Reporting                                 | **LLaMA-CT Report Generator**                                                        |                   | Generates standardized diagnostic reports with Lung-RADS classifications.                        |  
 
 
 ---
@@ -148,8 +148,8 @@ The **Agentographer** system integrates multiple AI models and software modules 
 - **Hardware-Software Co-Design**: Utilizes APIs (relays, KVM) to bridge AI decisions with physical device control.  
 - **Clinical Validation**: All models trained/fine-tuned on domain-specific datasets (e.g., chest CTs, radiology reports).  
 
-## **The structure of the released Code**
 
+   
 
 
 ## Acknowledgement
