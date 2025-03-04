@@ -25,7 +25,42 @@ In this paper, we aim to achieve full-automated intelligent CT examinatin, and d
 3. **A Series of task-specific Models for Automated CT Operation.** We developed a tool box involving several deep learning models for complete the CT examination workflow. In detail, the isocenter positioning module deploys RTMPose to detect body joints, determining the scanning start and ending points of the scout scan, assisted by the depth image from the RGB-D camera. A SAM2-based segmentation model is employed in the CT scan range determination module to localize the lung field. Besides, a widely-recognized lung nodule detection model, 3D deep Leaky Noisy-or Network is incorporated into the AI-driven diagnostic and report generation module.
 4. **A set of Functional Programs for CT Workflow.** We developed two major programs about LLM-based patient interaction module involving behavior guidance and intelligent Q&A, and LLM-based automated device control module, including the patient information registration, shielding door control(open/close), table movement control (up/down, in/out), tube exposure control (initiating scout scan and CT scan), CT scan positioning frame adjustment, and scan parameter selection.
 
-
+## Table of Contents
+- [The traditional workflow of CT examination](#Video-Demo-of-the-Agentographer)
+  - [Preliminary Works](#preliminary-works)
+  - [Highlighted Projects](#highlighted-projects)
+- [Installation](#installation)
+  - [Install with Docker](#install-with-docker)
+  - [Install locally](#install-without-docker)
+- [Grounded-SAM Playground](#grounded-sam-playground)
+  - [Step-by-Step Notebook Demo](#open_book-step-by-step-notebook-demo)
+  - [GroundingDINO: Detect Everything with Text Prompt](#running_man-groundingdino-detect-everything-with-text-prompt)
+  - [Grounded-SAM: Detect and Segment Everything with Text Prompt](#running_man-grounded-sam-detect-and-segment-everything-with-text-prompt)
+  - [Grounded-SAM with Inpainting: Detect, Segment and Generate Everything with Text Prompt](#skier-grounded-sam-with-inpainting-detect-segment-and-generate-everything-with-text-prompt)
+  - [Grounded-SAM and Inpaint Gradio APP](#golfing-grounded-sam-and-inpaint-gradio-app)
+  - [Grounded-SAM with RAM or Tag2Text for Automatic Labeling](#label-grounded-sam-with-ram-or-tag2text-for-automatic-labeling)
+  - [Grounded-SAM with BLIP & ChatGPT for Automatic Labeling](#robot-grounded-sam-with-blip-for-automatic-labeling)
+  - [Grounded-SAM with Whisper: Detect and Segment Anything with Audio](#open_mouth-grounded-sam-with-whisper-detect-and-segment-anything-with-audio)
+  - [Grounded-SAM ChatBot with Visual ChatGPT](#speech_balloon-grounded-sam-chatbot-demo)
+  - [Grounded-SAM with OSX for 3D Whole-Body Mesh Recovery](#man_dancing-run-grounded-segment-anything--osx-demo)
+  - [Grounded-SAM with VISAM for Tracking and Segment Anything](#man_dancing-run-grounded-segment-anything--visam-demo)
+  - [Interactive Fashion-Edit Playground: Click for Segmentation And Editing](#dancers-interactive-editing)
+  - [Interactive Human-face Editing Playground: Click And Editing Human Face](#dancers-interactive-editing)
+  - [3D Box Via Segment Anything](#camera-3d-box-via-segment-anything)
+  - [Playground: More Interesting and Imaginative Demos with Grounded-SAM](./playground/)
+    - [DeepFloyd: Image Generation with Text Prompt](./playground/DeepFloyd/)
+    - [PaintByExample: Exemplar-based Image Editing with Diffusion Models](./playground/PaintByExample/)
+    - [LaMa: Resolution-robust Large Mask Inpainting with Fourier Convolutions](./playground/LaMa/)
+    - [RePaint: Inpainting using Denoising Diffusion Probabilistic Models](./playground/RePaint/)
+    - [ImageBind with SAM: Segment with Different Modalities](./playground/ImageBind_SAM/)
+  - [Efficient SAM Series for Faster Annotation](./EfficientSAM/)
+    - [Grounded-FastSAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-fastsam-demo)
+    - [Grounded-MobileSAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-mobilesam-demo)
+    - [Grounded-Light-HQSAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-light-hqsam-demo)
+    - [Grounded-Efficient-SAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-efficient-sam-demo)
+    - [Grounded-Edge-SAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-edge-sam-demo)
+    - [Grounded-RepViT-SAM Demo](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM#run-grounded-repvit-sam-demo)
+- [Citation](#citation)
 
 ## The traditional workflow of CT examination
 The traditional worflow of CT examination is as follows. The process begins with patient registration and information input. Upon entering the scanning room, the radiographer provides verbal instructions to guide the patient in adjusting their body position and posture manually. Key parameters (e.g., scan range, isocenter) are measured and set by the radiographer using physical markers and visual alignment. Once positioning is confirmed, the radiographer configures scan parameters on the CT console and initiates the scan. After image acquisition, the radiographer oversees image reconstruction and transfers the data to radiologists for interpretation and report generation. Concurrently, the radiographer assists the patient in redressing and exiting the room, concluding the procedure.
