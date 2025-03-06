@@ -60,6 +60,8 @@ The operation process of our Agentographer. The process commences with the patie
 
 To enable seamless automation of CT examination workflows, we designed a robust hardware platform comprising multimodal sensing, real-time device control, and AI-driven decision-making modules. This system spans two functionally distinct spaces: the Scanning Room, optimized for patient interaction and radiation safety, and the Control Room, dedicated to centralized device management and computational processing. Key components include depth-sensing RGB-D cameras for 3D patient modeling, relay-based electromechanical interfaces for scanner/door control, and GPU computing server. 
 
+The advantages and innovations can be found in Supplementary S1.
+
 The details about the spatial distribution, hardware specifications, and functional roles of each subsystem can be seen in the submitted supplementary materials.
 
 **Summary Table: Hardware Collection**  
@@ -75,25 +77,7 @@ The details about the spatial distribution, hardware specifications, and functio
 
 The **Agentographer** system integrates multiple AI models and software modules to enable end-to-end automation of CT examination workflows, supported by the multimodal hardware platform. Key components include:  
 
-1. **Patient Information Recognition**:  
-   - An **OCR engine** extracts patient demographics and scan parameters from requisition forms (via HD camera), which are then input to the system via the **KVM Switch**.  
-
-2. **Behavior Guidance & Intelligent Q&A**:  
-   - Combines **LLaMA-CT** (based on knowledge base) with **Web Speech API** for real-time speech recognition and synthesis. This module drives patient interaction through microphones, speakers, and dual displays, delivering posture guidance videos and answering queries.  
-
-3. **Intelligent Isocenter Positioning**:  
-   - Uses **RTMPose** (a real-time 2D/3D pose estimation model) on RGB-D camera data to detect anatomical landmarks (e.g., suprasternal notch). Depth images refine 3D body modeling to calculate isocenter coordinates for scout scanning.  
-
-4. **CT Scan Range Determination**:  
-   - Leverages **Segment Anything Model (SAM2)** to segment lung fields from scout images (captured via OBS video card). Geometric algorithms define scan ranges (e.g., apex to diaphragm), validated against clinical protocols.  
-
-5. **LLM-Based Device Control**:  
-   - Employs **LLaMA-CT’s function calling** to translate natural language decisions (e.g., "start helical scan") into API commands for relays/KVM switches, automating CT console operations.  
-
-6. **AI-Driven Diagnosis & Reporting**:  
-   - A **3D Leaky Noisy-or Network** detects pulmonary nodules from chest CT volumes. Post-processing algorithms quantify nodule characteristics (size, diagnosis), while **LLaMA-CT** generates draft diagnostic reports.  
-
----
+The advantages and innovations can be found in Supplementary S2.
 
 **Summary Table: AI Models/Script and Roles**  
 
