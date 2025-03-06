@@ -45,14 +45,13 @@ def upload_file(local_file_path):
 
 def analyze_img(prompt="这张图片是一个患者在CT方舱中做CT检查过程中拍摄的，请问患者在检查CT的过程中最可能是在什么进度",img_path="https://bj-1323287448.cos.ap-beijing.myqcloud.com/stand_test.png"):
     client = OpenAI(
-        # #将这里换成你在aihubmix api keys拿到的密钥
-        api_key="sk-z8Keo9iBzrPPkWTVKy7IHtSmvm0BWlLnyaNeVonaludm3pzW",
-        # 这里将官方的接口访问地址，替换成aihubmix的入口地址
-        base_url="https://api.mobrai.cc/v1"
+        api_key="",
+        # the url of llama-ct
+        base_url=""
     )
 
     response = client.chat.completions.create(
-        #model="gpt-4-vision-preview",
+   
         model="gpt-4o",
 
         messages=[
