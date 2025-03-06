@@ -84,10 +84,6 @@ export PYTHONPATH=`pwd`:$PYTHONPATH
 ```
 
 ## Usage
-### Downloading data
-```bash
-python download_test_data.py
-```
 ### Evaluating models
 #### 1. Test the mmpose model
 The required parameters are the input image, mmpose parameter configuration, model parameters to be loaded, and output path --out-file.
