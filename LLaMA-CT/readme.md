@@ -1,4 +1,4 @@
-# LLaMA_CT
+# LLaMA_CT in Agentographer
 
 This repository provides the official implementations and experiments for LLaMA_CT.
 
