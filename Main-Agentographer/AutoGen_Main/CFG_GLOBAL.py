@@ -1,0 +1,1 @@
+AGENT_RUN_DIR="D:\Monitoring_AI"

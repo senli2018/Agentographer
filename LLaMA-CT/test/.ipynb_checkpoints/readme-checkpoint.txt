@@ -1,0 +1,6 @@
+benchmark是计算三个指标的脚本
+test.py是基于本地api进行测试的脚本
+test_llama_ct.py是年前测试的脚本，现在不知道为什么会报错
+convert_url.py是转换数据url地址的脚本，将图片的本地地址改为云url地址
+llama-ct-test_data是本地地址的测试数据
+llama-ct-test_data_updated是云url地址的测试数据

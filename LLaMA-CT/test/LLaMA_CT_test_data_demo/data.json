@@ -1,0 +1,4618 @@
+[
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "nobody",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "nobody",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "nobody",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "nobody",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient1_0.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "nobody",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "nobody",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "nobody",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "nobody",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient1_3.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing coat.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is not present on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is not present on the CT scan table; the bed is ready but unoccupied.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient1_3.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There are two persons with interaction",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a coat, without hats, scarves and metal accessories",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing in the scanning room",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient1_6.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There are two person with interaction",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a coat, without hats, scarves and metal accessories",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing in the scanning room.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient1_135.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing in the scanning room.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient1_138.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There are two person without interaction",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a coat, without hats, scarves and metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing in the scanning room.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient1_141.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There are two person without interaction",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a coat, without hats, scarves and metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "nobody",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "nobody.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient1_147.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "no person.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "No patient  on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is not present on the CT scan table; the bed is ready but unoccupied.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient1_150.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a coat and hats, without scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is not present on the CT scan table; the bed is ready but unoccupied.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_0.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing hats, without coats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside on the CT scan table.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_3.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing coats, hats, without scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the CT machine",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_6.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, with uncertainty regarding hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_9.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is Standing in the scanning room.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is Standing in the scanning room",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_12.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no hats, scarves, coats, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is sitting on the CT scanner bed.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_15.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_18.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_21.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_24.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_27.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_30.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_33.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_36.00s"
+    ]
+  },
+    {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a coat,without hats, scarves and metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_39.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a coat and hats, without scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is seating on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_42.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing without hats coats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_45.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing without coats, hats, without scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_48.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, without uncertainty regarding hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_51.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes'.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_54.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no hats, scarves, coats, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_57.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_60.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_63.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_66.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_69.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_72.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_75.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without any coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the examination table with the head facing the opening of the CT scanner, arms flexed and hands placed behind the head to maintain comfort and stability during the scanning process.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_78.00s"
+    ]
+  },
+    {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves and metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_81.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight and his hands above his head.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_84.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no hats, coats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "Yes.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is  lying on the scanning table with his legs straight.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_87.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is seating on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is seating on the CT machine",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_90.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_93.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is Standing in the scanning room.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is Standing in the scanning room",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_96.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no hats, scarves, coats, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is seating on the CT scanner bed.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_99.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor ",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_102.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a coat and hats,without scarves and metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_105.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt, pants, coats, hats, scarves, and metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient2_108.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "no patient",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "no patient",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "no patient",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_0.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt pants, coats, hats, scarves, and metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor",
+
+	    "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_3.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, with coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_6.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a long-sleeved shirt and pants, without coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_9.00s"
+    ]
+  },
+    {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a coat,without hats, scarves and metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is not present on the CT scan table; the bed is ready but unoccupied.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_12.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a coat and hats, without scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is not present on the CT scan table; the bed is ready but unoccupied.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_15.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no hats, without coats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside on the CT scan table.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_18.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, without scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the CT machine",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_21.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, without hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_24.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is Standing in the scanning room.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is Standing in the scanning room",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_27.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no hats, scarves, coats, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the CT scanner bed.",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_30.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside)，and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is two person with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing no coats, hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing on the floor",
+        "role": "assistant"
+      },
+      {
+        "content": "ls the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "patient3_33.00s"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There are two people with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient has the coat, the others don't.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is not present on the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is not present on the CT scan table; the bed is ready but unoccupied.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient3_36.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There are two people with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing a coat, without hats, scarves, or metal accessories.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is not present on the CT scan table; the bed is ready but unoccupied.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient3_39.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There are two people with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is wearing none of these items.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is lying supine on the CT scan table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient3_42.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is closed.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There are two people with interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is not wearing any of these items.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is sitting up from the scanning bed.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient3_162.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is one person without interaction.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is not wearing any of these items.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "The patient is standing beside the scanning table.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient3_165.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is no one in the scanning room.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "There is no patient present.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "There is no patient present.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient3_168.00s.png"
+    ]
+  },
+  {
+    "messages": [
+      {
+        "content": "<image>What is the current status of the electric sliding door?",
+        "role": "user"
+      },
+      {
+        "content": "The door is open.",
+        "role": "assistant"
+      },
+      {
+        "content": "How many people are present in the scanning room (excluding those outside), and is there any interaction between them?",
+        "role": "user"
+      },
+      {
+        "content": "There is no one in the scanning room.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient wearing any coats, hats, scarves, or metal accessories?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "What is the current status of the patient?",
+        "role": "user"
+      },
+      {
+        "content": "There is no patient present.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying flat on the CT scan table?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "Are the patient's arms raised toward the CT machine?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      },
+      {
+        "content": "How would you describe the patient's current posture?",
+        "role": "user"
+      },
+      {
+        "content": "There is no patient present.",
+        "role": "assistant"
+      },
+      {
+        "content": "Is the patient lying on the scanning table with his legs straight and his hands above his head?",
+        "role": "user"
+      },
+      {
+        "content": "No.",
+        "role": "assistant"
+      }
+    ],
+    "images": [
+      "images/patient3_171.00s.png"
+    ]
+  }
+]
