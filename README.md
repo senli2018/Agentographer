@@ -51,7 +51,7 @@ The operation process of our Agentographer. The process commences with the patie
 
 
 <div align="center">
-  <img src="./assets/framework.png" width="1000"/>
+  <img src="./assets/framework2.png" width="1000"/>
   <div align="center"></div>
 </div>
 
