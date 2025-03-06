@@ -134,7 +134,7 @@ The **Agentographer** system integrates multiple AI models and software modules 
 
 
 ## Project Structure
-
+Each module contain the corresponding ReadMe. The detailed information can be seen in each module.
 ```
 Our Agentographer project/
 ├── AI-Driven-Diagnosis/
