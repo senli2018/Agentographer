@@ -1,3 +1,4 @@
+## Patient information registration in Agentographer
 ## Table of Contents
 - [Installing Dependencies](#installing-dependencies)
 - [Configuration](#configuration)
