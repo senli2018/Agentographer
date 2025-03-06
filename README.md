@@ -68,29 +68,6 @@ The details about the spatial distribution, hardware specifications, and functio
 |----------------------------------------------------------------------------------|-------------------|----------|
 | Detailed hardware platform can be found in the submitted supplementary Table S1. | ...               | ...      |
 
----
-**Key Advantages of the Hardware Platform**  
-
-1. **Multimodal Sensing Integration**  
-   - Combines **RGB-D cameras** (3D joint modeling) and **HD RGB cameras** (real-time posture monitoring) for comprehensive patient and environmental perception, enabling precise positioning and dynamic scene understanding.  
-
-2. **Non-Invasive Automation**  
-   - **Relay APIs** and **KVM Switch** automate scanner/door control and console operations **without modifying proprietary CT software**, ensuring compliance with clinical regulations (e.g., IEC 60601-1) and vendor protocols.  
-
-3. **AI-Driven Real-Time Processing**  
-   - **GPU Computing Server** powers low-latency inference of the LLaMA-CT model, integrating perception data (3D joints, voice feedback) with decision-making for end-to-end workflow automation.  
-
-4. **Dual-Room Orchestration**  
-   - **Scanning Room** prioritizes patient safety (automated shielding door) and interaction (dual displays, voice guidance), while the **Control Room** centralizes device control (relays, KVM) and AI computation, minimizing radiation exposure to operators.  
-
-5. **Scalability & Interoperability**  
-   - Modular hardware (e.g., OBS capture card, HID emulator) supports cross-vendor CT systems (Siemens, GE, Philips) via standardized interfaces (HDMI/USB, DICOM), enabling rapid deployment in diverse clinical settings.  
-
-6. **Error Reduction & Efficiency**  
-   - Automated parameter setting (via KVM macros) and AI-guided positioning reduce human errors, while parallel task execution (scanning + patient guidance) shortens examination time by 9.3% (*P*<0.001), as demonstrated in clinical trials.  
-
-7. **Safety Compliance**  
-   - Embedded **radiation monitoring** (shielding door relays) and **emergency stop protocols** (e.g., microphone-triggered halt) adhere to ALARA principles and ISO 13485 risk management standards.  
 
 --- 
 
@@ -102,7 +79,7 @@ The **Agentographer** system integrates multiple AI models and software modules 
    - An **OCR engine** extracts patient demographics and scan parameters from requisition forms (via HD camera), which are then input to the system via the **KVM Switch**.  
 
 2. **Behavior Guidance & Intelligent Q&A**:  
-   - Combines **LLaMA-CT** (based on knowledge base) with **Microsoft Azure Speech Services** for real-time speech recognition and synthesis. This module drives patient interaction through microphones, speakers, and dual displays, delivering posture guidance videos and answering queries.  
+   - Combines **LLaMA-CT** (based on knowledge base) with **Web Speech API** for real-time speech recognition and synthesis. This module drives patient interaction through microphones, speakers, and dual displays, delivering posture guidance videos and answering queries.  
 
 3. **Intelligent Isocenter Positioning**:  
    - Uses **RTMPose** (a real-time 2D/3D pose estimation model) on RGB-D camera data to detect anatomical landmarks (e.g., suprasternal notch). Depth images refine 3D body modeling to calculate isocenter coordinates for scout scanning.  
@@ -127,7 +104,7 @@ The **Agentographer** system integrates multiple AI models and software modules 
 ---
 
 **Key Innovations**:  
-- **Multimodal Integration**: Combines vision (RTMPose, SAM), speech (Azure), and language models (LLaMA-CT) for holistic automation.  
+- **Multimodal Integration**: Combines vision (RTMPose, SAM), speech (Web Speech API), and language models (LLaMA-CT) for holistic automation.  
 - **Hardware-Software Co-Design**: Utilizes APIs (relays, KVM) to bridge AI decisions with physical device control.  
 - **Clinical Validation**: All models trained/fine-tuned on domain-specific datasets (e.g., chest CTs, radiology reports).  
 
