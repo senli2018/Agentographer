@@ -45,6 +45,7 @@ The traditional worflow of CT examination is described in following image part d
   <img src="./assets/framework2.png" width="1000"/>
   <div align="center"></div>
 </div>
+
 ## The Agent Framework of Agentographer
 The operation process of our Agentographer. The process commences with the patient's information registration by a camera and an OCR algorithm at the initial stage. Subsequently, the patient steps into the scanning room. There, the agent will provide the patient with extremely meticulous pre-scan preparation guidance, assisting the patient in accurately adjusting their body position and posture. At the same time, the 3D camera operates efficiently, precisely measuring various key parameters. After the measurement is completed, the system quickly completes the parameter setting based on the measured data, and then smoothly carries out and finishes the CT scan.  Once the CT scan is successfully completed, a dual-track operation will commence.  On one hand, the system efficiently undertakes image interpretation and generates a draft report for radiologists' reference. On the other hand, it simultaneously and attentively guides the patient to put on the clothes that were previously removed. This process continues until the patient departs from the scanning room, marking the conclusion of the entire, streamlined operation.
 
