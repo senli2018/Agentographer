@@ -39,21 +39,18 @@ In this paper, we aim to achieve full-automated intelligent CT examinatin, and d
 - [Reference](#Reference)
 
 ## The Traditional Workflow of CT Examination
-The traditional worflow of CT examination is as follows. The process begins with patient registration and information input. Upon entering the scanning room, the radiographer provides verbal instructions to guide the patient in adjusting their body position and posture manually. Key parameters (e.g., scan range, isocenter) are measured and set by the radiographer using physical markers and visual alignment. Once positioning is confirmed, the radiographer configures scan parameters on the CT console and initiates the scan. After image acquisition, the radiographer oversees image reconstruction and transfers the data to radiologists for interpretation and report generation. Concurrently, the radiographer assists the patient in redressing and exiting the room, concluding the procedure.
-<div align="center">
-  <img src="./assets/workflow.png" width="500"/>
-  <div align="center"></div>
-</div>
-
-## The Agent Framework of Agentographer
-The operation process of our Agentographer. The process commences with the patient's information registration by a camera and an OCR algorithm at the initial stage. Subsequently, the patient steps into the scanning room. There, the agent will provide the patient with extremely meticulous pre-scan preparation guidance, assisting the patient in accurately adjusting their body position and posture. At the same time, the 3D camera operates efficiently, precisely measuring various key parameters. After the measurement is completed, the system quickly completes the parameter setting based on the measured data, and then smoothly carries out and finishes the CT scan.  Once the CT scan is successfully completed, a dual-track operation will commence.  On one hand, the system efficiently undertakes image interpretation and generates a draft report for radiologists' reference. On the other hand, it simultaneously and attentively guides the patient to put on the clothes that were previously removed. This process continues until the patient departs from the scanning room, marking the conclusion of the entire, streamlined operation.
-
-
+The traditional worflow of CT examination is described in following image part C. The process begins with patient registration and information input. Upon entering the scanning room, the radiographer provides verbal instructions to guide the patient in adjusting their body position and posture manually. Key parameters (e.g., scan range, isocenter) are measured and set by the radiographer using physical markers and visual alignment. Once positioning is confirmed, the radiographer configures scan parameters on the CT console and initiates the scan. After image acquisition, the radiographer oversees image reconstruction and transfers the data to radiologists for interpretation and report generation. Concurrently, the radiographer assists the patient in redressing and exiting the room, concluding the procedure.
 
 <div align="center">
   <img src="./assets/framework2.png" width="1000"/>
   <div align="center"></div>
 </div>
+## The Agent Framework of Agentographer
+The operation process of our Agentographer. The process commences with the patient's information registration by a camera and an OCR algorithm at the initial stage. Subsequently, the patient steps into the scanning room. There, the agent will provide the patient with extremely meticulous pre-scan preparation guidance, assisting the patient in accurately adjusting their body position and posture. At the same time, the 3D camera operates efficiently, precisely measuring various key parameters. After the measurement is completed, the system quickly completes the parameter setting based on the measured data, and then smoothly carries out and finishes the CT scan.  Once the CT scan is successfully completed, a dual-track operation will commence.  On one hand, the system efficiently undertakes image interpretation and generates a draft report for radiologists' reference. On the other hand, it simultaneously and attentively guides the patient to put on the clothes that were previously removed. This process continues until the patient departs from the scanning room, marking the conclusion of the entire, streamlined operation.
+
+
+
+
 
 
 ### Integrated Hardware Solution for Agentographer
