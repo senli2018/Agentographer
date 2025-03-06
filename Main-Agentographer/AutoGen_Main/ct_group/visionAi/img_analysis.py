@@ -17,10 +17,10 @@ from qcloud_cos import CosS3Client
 import sys
 
 def upload_file(local_file_path):
-    # 替换为用户的 secretId
-    secret_id = 'AKIDMbgePvJnCZn076tTYXO930ru0uso6WZh'
-    # 替换为用户的 secretKey
-    secret_key = 'NXTBj6II5kEZH0c7PYaqEUvX2Qq8IJYj'
+    # the secretId in tencent cloud
+    secret_id = ''
+    # secretKey in tencent cloud
+    secret_key = ''
     # 替换为用户的 Region
     region = 'ap-beijing'
     # 替换为用户的 bucket
