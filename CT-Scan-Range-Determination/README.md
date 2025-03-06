@@ -1,4 +1,4 @@
-#  AI(title)
+#  The CT Scan Range Determination in Agentographer
 ## lung segmentation
 
 [[Paper]](https://arxiv.org/pdf/1711.08324v1.pdf)
