@@ -51,33 +51,31 @@ from qcloud_cos import CosS3Client
 import sys
 
 def upload_file(local_file_path):
-    # 替换为用户的 secretId
-    secret_id = 'AKIDMbgePvJnCZn076tTYXO930ru0uso6WZh'
-    # 替换为用户的 secretKey
-    secret_key = 'NXTBj6II5kEZH0c7PYaqEUvX2Qq8IJYj'
-    # 替换为用户的 Region
-    region = 'ap-beijing'
-    # 替换为用户的 bucket
-    bucket = 'paper86ye-1317959654'
+    # Please replace with the user's secretId
+    secret_id = ''
+    # Please replace with the user's secretKey
+    secret_key = ''
+    # Please replace with the user's Region
+    region = ''
+    # Please replace with the user's bucket
+    bucket = ''
     config = CosConfig(Region=region, SecretId=secret_id, SecretKey=secret_key)
-    # 生成 cos 客户端。
     client = CosS3Client(config)
 
-    # 上传文件
+    # upload file
     response = client.upload_file(
         Bucket=bucket,
         LocalFilePath=local_file_path,
         Key=local_file_path,
     )
 
-    # 返回公开访问的文件URL
     public_url = f"https://{bucket}.cos.{region}.myqcloud.com/{local_file_path[2:]}"
     print(public_url)
     return public_url
 
 def ocr(public_url):
     from zhipuai import ZhipuAI
-    client = ZhipuAI(api_key="fecf27dd25b5000a15a97279d0363e3c.TtcevCAzNj8IYtIR")  # 填写您自己的APIKey
+    client = ZhipuAI(api_key="")  # 填写您自己的APIKey
     response = client.chat.completions.create(
         model="glm-4v",  # 填写需要调用的模型名称
         messages=[
