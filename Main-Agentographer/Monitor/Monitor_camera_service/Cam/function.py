@@ -38,13 +38,13 @@ LLAMA_API_URL = "https://a900-36-139-230-162.ngrok-free.app/v1/chat/completions"
 
 def upload_file(local_file_path):
     # 替换为用户的 secretId
-    secret_id = 'AKIDMbgePvJnCZn076tTYXO930ru0uso6WZh'
+    secret_id = ''
     # 替换为用户的 secretKey
-    secret_key = 'NXTBj6II5kEZH0c7PYaqEUvX2Qq8IJYj'
+    secret_key = ''
     # 替换为用户的 Region
     region = 'ap-beijing'
     # 替换为用户的 bucket
-    bucket = 'paper86ye-1317959654'
+    bucket = ''
     config = CosConfig(Region=region, SecretId=secret_id, SecretKey=secret_key)
     # 生成 cos 客户端。
     client = CosS3Client(config)
@@ -189,7 +189,7 @@ def zhipu_mmodel_picture(image_data):
     ]
 
     # 初始化ZhipuAI客户端
-    client = ZhipuAI(api_key="83cd4f586f9a690094fa65da60ed6f0d.Pdb1xtU5H1Qa4Hqo")  # 填写您自己的APIKey
+    client = ZhipuAI(api_key="")  # 填写您自己的APIKey
 
     # 发送请求
     response = client.chat.completions.create(
@@ -259,7 +259,7 @@ def zhipu_model_video(image_data):
     ]
 
     # 初始化ZhipuAI客户端
-    client = ZhipuAI(api_key="83cd4f586f9a690094fa65da60ed6f0d.Pdb1xtU5H1Qa4Hqo")  # 填写您自己的APIKey
+    client = ZhipuAI(api_key="")  # 填写您自己的APIKey
 
     # 发送请求
     response = client.chat.completions.create(
