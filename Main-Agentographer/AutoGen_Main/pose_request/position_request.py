@@ -20,7 +20,6 @@ def ct_seg_request(data):
 
 def deep_camera():
     import json
-    # url = "http://123.57.30.227:10223/pose_right_or_wrong/"
     # url = "http://{}/pose_right_or_wrong/".format(position_request_ip)
     url = "http://{}/neck/plane/depth".format(deep_camera_ip)
     # 注意：headers 参数在这里是不需要的，因为 requests 会自动设置正确的 content-type
