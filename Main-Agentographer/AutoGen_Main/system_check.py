@@ -254,7 +254,7 @@ def system_check():
     #TODO 门的开关自检
 
     print("开始开关门自检")
-    baseurl = "https://www.lmcraft.com/lmiot/ctrl/sac07csa"
+    baseurl = ""
     params = {
         "api_key": "qJj8D8RqJU=kcYRtqtXDL2uSaVM=",
         "device_id": 1209858326,
@@ -270,7 +270,7 @@ def system_check():
     else:
         time.sleep(5)
         #重新打开门，保证门状态和刚开始一样。
-        baseurl = "https://www.lmcraft.com/lmiot/ctrl/sac07csa"
+        baseurl = ""
         params = {
             "api_key": "qJj8D8RqJU=kcYRtqtXDL2uSaVM=",
             "device_id": 1209858326,
