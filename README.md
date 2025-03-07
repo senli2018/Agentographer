@@ -139,6 +139,8 @@ SAM2[2] -- https://github.com/facebookresearch/sam2
 
 3D Leaky Noisy-or Network[3] -- https://github.com/lfz/DSB2017
 
+Dify --https://github.com/langgenius/dify
+
 ## Contact
 If you have any question, please feel free to contact senli2018@163.com.
 
