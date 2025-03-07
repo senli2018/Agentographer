@@ -1,7 +1,7 @@
 import requests
 import json
 import time
-LLAMA_API_URL = "https://a900-36-139-230-162.ngrok-free.app/v1/chat/completions"  # 替换为你的API地址
+LLAMA_API_URL = ""  # 替换为你的API地址
 def call_llama_api(messages, max_retries=3, retry_delay=5):
     headers = {
         'Content-Type': 'application/json',
@@ -92,7 +92,7 @@ def call_llama_api(messages, max_retries=3, retry_delay=5):
     return None
 
 if __name__ == "__main__":
-    image_path = r"https://paper86ye-1317959654.cos.ap-beijing.myqcloud.com/iner_pic/111.png"
+    image_path = r""
     messages = [
         {"role": "user",
          "content": "大门是开的还是关闭的，请用0和1来回复，1代表开着，0代表关着"}
