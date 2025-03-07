@@ -123,7 +123,7 @@ def open_door():
     # 输出开始时间
     start_time = datetime.datetime.now()
     print("open the door")
-    baseurl = "https://www.lmcraft.com/lmiot/ctrl/sac07csa"
+    baseurl = ""
     params = {
         "api_key": "qJj8D8RqJU=kcYRtqtXDL2uSaVM=",
         "device_id": 1209858326,
@@ -542,7 +542,7 @@ def close_door():
     print("舱门关闭")
 
     # 请求的路径和参数
-    baseurl = "https://www.lmcraft.com/lmiot/ctrl/sac07csa"
+    baseurl = ""
     params = {
         "api_key": "qJj8D8RqJU=kcYRtqtXDL2uSaVM=",
         "device_id": 1209858326,
@@ -1309,7 +1309,7 @@ def voice_new_14():
 
     while True:
         try:
-            url = "http://192.168.1.141:5000/play?action=1"
+            url = ""
             response = requests.get(url)
             break
             # 检查响应状态码是否为200，即请求成功
@@ -1391,7 +1391,7 @@ def voice_new_16():
     if int(data_video)==1:
         while True:
             try:
-                url = "http://192.168.1.140:5000/play?action=1"
+                url = ""
                 response = requests.get(url)
                 break
                 # 检查响应状态码是否为200，即请求成功
