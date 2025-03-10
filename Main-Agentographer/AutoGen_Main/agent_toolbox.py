@@ -515,7 +515,7 @@ def ctimage_analysis(name,sex,age,check,dicom_path):
                         "age": age,
                         "check": check,
                         "nodule_info": response,
-                        "prompt": "请根据以上的信息，生成一份诊断报告"}
+                        "prompt": "请根据以上的信息，生成一份中文肺癌筛查诊断报告"}
          }
     ]
     #利用本地训练的大模型
