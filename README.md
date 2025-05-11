@@ -146,7 +146,7 @@ If you have any question, please feel free to contact senli2018@163.com.
 
 ## Citation
 ```
-@misc{qiu2024building,
+@misc{zheng2024act,
       title={ A CT Operation Agent "Agentographer" built on Multimodal Large Language Model versus Radiographer in Chest CT Lung Cancer Screening}, 
       author={Xueyi zheng, Sen Li, Wanqing Yi et al.},
       year={2025},
